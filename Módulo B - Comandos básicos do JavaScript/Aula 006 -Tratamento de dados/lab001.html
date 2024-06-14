@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados em JavaScript</title>
+</head>
+<body>
+    <script>
+        // Entrada de dados
+        var n1 = window.prompt("Entre com um número: ");
+        var n2 = window.prompt("Entre com outro número: ");
+        // O comando 'prompt' pede por padrão uma string
+
+        // Tratamento de dados
+        n1 = Number(n1);
+        n2 = Number(n2);
+        // Convertendo um dado do tipo string para o tipo number
+
+        // Processamento de dados
+        var soma = n1 + n2; // Como 'n1' e 'n2' são number 'soma' também irá ser
+
+        // Saída de dados
+        window.alert(`A soma entre o número ${n1} e o número ${n2} é igual a ${soma}!`); // Aqui eu utilizei 'placeholder' e 'template strings'
+    </script>
+</body>
+</html>

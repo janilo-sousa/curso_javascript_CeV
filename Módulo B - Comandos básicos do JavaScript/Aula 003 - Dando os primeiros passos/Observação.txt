@@ -1,0 +1,8 @@
+Neste aula o professor Gustavo Guanabara da sugestões de bibliografias
+para caso o aula queira ter um material completar fora as aulas.
+
+Nela também o professor faz a preparação do ambiente para começar o curso.
+Ele baixa e instala as seguintes ferramentas:
+	- O navegador Google Chrome;
+	- O editor de código da Microsoft Visual Studio Code;
+	- O ambiente de execução/máquina virtual Node.Js.

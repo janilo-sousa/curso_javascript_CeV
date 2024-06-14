@@ -1,0 +1,12 @@
+1) Ser aplicado no lado do cliente em sites para trazer animações e interatividade
+2) Ser aplicado no lado do servidor em sites com o Node.Js
+3) Serve para criar games com os frameworks Phaser, Pixi.Js, Impact, Melon.Js e Crafty.Js
+4) Serve para criar interatividades em páginas web como:
+	- Menus;
+	- Modais;
+	- Animações;
+	- Slider de imagens;
+	- Entre outras coisas.
+
+5) Serve para criar sites mais complexos como E-commerce
+6) Serve para criar aplicativos para celular com o uso do framework React Native

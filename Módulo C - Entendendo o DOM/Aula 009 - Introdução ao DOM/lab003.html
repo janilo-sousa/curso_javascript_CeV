@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escrevendo no documento html atráves do DOM</title>
+</head>
+<body>
+    <div id="msg">
+        Olá, Mundo!
+    </div>
+
+    <script>
+        var titulo = window.document.getElementById("msg");
+        // titulo.innerText = "<h1>JavaScript</h1>"; // Não aceita tags html
+        titulo.innerHTML += "<p>JavaScript</p>"; // Aceita tags html
+
+        /* Tanto o comando 'innerText' quanto o comando 'innerHTML' apagam o conteúdo que já estava escrito. Se você não quer isso, faça uma AUTO-ATRIBUIÇÃO!
+        */
+    </script>
+</body>
+</html>

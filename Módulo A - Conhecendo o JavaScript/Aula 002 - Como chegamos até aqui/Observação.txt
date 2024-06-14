@@ -1,0 +1,4 @@
+Neste aula o professor Gustavo Guanabara da um breve histórico de como surgiu e de como
+a linguagem JavaScript veio parar no que ela é hoje.
+
+Eu anotei e resumi tudo em meu caderno de estudos!

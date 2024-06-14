@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos no DOM</title>
+    <style>
+        div#area {
+            font-family: Arial;
+            font-size: 25px;
+            font-weight: bold;
+            background-color: red;
+            display: inline-block;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="entrar()"> <!-- MANEIRA 1: adicionando a chamada da função diretamento no elemento html -->
+        Interaja
+    </div>
+
+    <script>
+        // Pegando o elemento
+        var a = window.document.getElementById("area");
+
+        // MANEIRA 2: Adicionando um escutador de eventos (não use parênteses aqui)
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('mouseout', sair);
+        a.addEventListener('click', clicar);
+
+        /* LISTA DE ALGUNS EVENTOS:
+            * 'mouseenter' -> quando o cursor do mouse entra dentro do elemento
+            * 'mousedown' -> quando o usuário clica para baixo
+            * 'click' -> quando o usuário clica em cima do elemento
+            * 'mousemove' -> quando o cursor do mouse se move dentro do elemento
+            * 'mouseup' -> quando o usuário solta o botão do click
+            * 'mouseout' -> quando o cursor do mouse sai de dentro do elemento
+        */
+
+        function entrar() {
+            a.style.background = "blue";
+        }
+
+        function sair() {
+            a.style.background = "red";
+        }
+
+        function clicar() {
+            a.style.background = "yellow";
+        }
+    </script>
+</body>
+</html>

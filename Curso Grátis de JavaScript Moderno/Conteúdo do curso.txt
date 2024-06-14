@@ -1,0 +1,73 @@
+* CURSO DE JAVASCRIPT DO CURSO EM VÍDEO COM O PROFESSOR GUSTAVO GUANABARA *
+
+AULA 001: Curso grátis de JavaScript moderno
+
+AULA 002: MÓDULO A: Conhecendo o JavaScript
+AULA 003: O que o JavaScript é capaz de fazer?
+AULA 004: JavaScript: Como chegamos até aqui?
+
+AULA 005: MÓDULO B: Comandos básicos do JavaScript
+AULA 006: Dando os primeiros passos
+AULA 007: Criando o seu primeiro script
+	- window.alert()
+	- window.confirm()
+	- window.prompt()
+
+AULA 008: Variáveis e tipos primitivos
+	- number (infinity, NaN)
+	- string
+	- boolean
+	- null
+	- undefined
+	- object (array)
+	- function
+
+AULA 009: Tratamento de dados
+AULA 010: Operadores (Parte 1)
+	- Operadores aritméticos (+, -, *, /, %, **)
+	- Operador de atribuição (=)
+	- Operador de auto-atribuição (x += 1)
+	- Operador de incremento (pós-incremento e pré-incremento) (x++, ++x)
+
+AULA 011: Operadores (Parte 2)
+	- Operadores relacionais (>, <, >=, <=, ==, !=)
+	- Operador de identidade (===)
+	- Operadores lógicos (!, &, ||)
+	- Operador ternário (teste ? true : false)
+	- Ordem de precedência dos operadores
+
+AULA 012: MÓDULO C: Entendendo o DOM
+AULA 013: Introdução ao DOM
+AULA 014: Eventos DOM
+
+AULA 015: MÓDULO D: Condições em JavaScript
+AULA 016: Condições (Parte 1)
+	- Condição simples (if)
+	- Condição composta (if, else)
+
+AULA 017: Condições (Parte 2)
+	- Condições aninhadas (if, else if, else)
+	- Condições múltiplas (switch)
+
+AULA 018: MÓDULO E: Repetições em JavaScript
+AULA 019: Repetições (Parte 1)
+	- Laço while
+	- Laço do while
+
+AULA 020: Repetições (Parte 2)
+	- Laço for
+
+AULA 021: MÓDULO F: Avançando os estudos em JavaScript
+AULA 022: Variáveis compostas
+	- Iterando um array com o laço for
+	- Iterando um array com o laço for in
+
+AULA 023: Funções
+	- Chamado
+	- Escopo
+	- Retorno
+	- Parâmetros
+	- Funções recursivas
+
+AULA 024: Próximos passos
+	- Introdução á programação orientada á objetos em js

@@ -1,0 +1,11 @@
+Neste aula o professor faz uma pequena introdução ao DOM, explicando
+o que é. O DOM(Document Object Model/Modelo de Documento do Objeto)
+nada mais é que uma espécie de árvore genealógica que reune todos
+os componentes da sua página html(títulos, parágrafos, imagens, etc ... )
+e seus respectivos componentes filhos, para que podemos acessa-lós
+e fazer modificações via JavaScript.
+
+Neste aula iremos aprender como resgatar esses elementos
+(via id, via classe, via tag, via name, via queryselector e via queryselectorall),
+como fazer pequenas modificações de estilo css e como escrever
+no documento.

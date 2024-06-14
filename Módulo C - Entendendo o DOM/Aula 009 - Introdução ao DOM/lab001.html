@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao DOM</title>
+</head>
+<body>
+    <h1>Primeiro Título De Nível Um</h1>
+    <p id="ideia1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat, dolores culpa quo possimus natus animi molestias blanditiis cupiditate! Dolor illo molestiae temporibus alias eligendi rem accusamus perspiciatis repellat ab.</p>
+
+    <h1>Segundo Título De Nível Um</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis rerum minus fuga quod eaque porro, corrupti accusantium cum molestias maiores culpa aliquid! Perspiciatis deserunt molestiae culpa error laudantium facilis sint?</p>
+
+    <h2 name="titulo2">Primeiro Título De Nível Dois</h2>
+    <p class="importante">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum unde ipsam mollitia quaerat enim a fuga illo aliquam deleniti, obcaecati laboriosam alias, iste, sint vel quod fugiat beatae perferendis incidunt?</p>
+
+    <h2 name="titulo2">Segundo Título De Nível Dois</h2>
+    <p class="importante">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum unde ipsam mollitia quaerat enim a fuga illo aliquam deleniti, obcaecati laboriosam alias, iste, sint vel quod fugiat beatae perferendis incidunt?</p>
+
+    <script>
+        // PEGANDO ELEMENTOS POR TAG OU MARCA
+        var h = window.document.getElementsByTagName('h1')[0]; // Este comando pega todos os <h1> da página. Você tem que especificar qual você quer -> [3]
+        h.style.color = "red";
+
+        // PEGANDO ELEMENTOS POR NAME
+        var titulo2 = window.document.getElementsByName('titulo2')[0];
+        titulo2.style.color = "blue";
+
+        // PEGANDO O ELEMENTO POR ID
+        var ideia1 = window.document.getElementById('ideia1');
+        ideia1.style.background = 'orange';
+
+        // PEGANDO ELEMENTOS POR CLASSE
+        var importante = window.document.getElementsByClassName('importante')[1];
+        importante.style.background = "red";
+
+        /* NOTE: todos os comando que tem o 's' no final, deixando claro o plural da língua inglesa, resgatam várias elementos. Logo você deve usar a notação de arrays para especificar qual elemento você quer!
+        */
+    </script>
+</body>
+</html>

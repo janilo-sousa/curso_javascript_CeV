@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando o querySlector</title>
+</head>
+<body>
+    <h1 id="primeiro">Primeiro Título De Nível Um</h1>
+    <p class="importante">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus fugiat in nesciunt officiis corrupti quasi, repellat ab quae numquam cumque molestias officia, facilis molestiae iusto sed? Magnam, repellat eveniet.</p>
+
+    <p class="importante">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus fugiat in nesciunt officiis corrupti quasi, repellat ab quae numquam cumque molestias officia, facilis molestiae iusto sed? Magnam, repellat eveniet.</p>
+
+    <p class="importante">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus fugiat in nesciunt officiis corrupti quasi, repellat ab quae numquam cumque molestias officia, facilis molestiae iusto sed? Magnam, repellat eveniet.</p>
+
+    <p class="importante">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi natus fugiat in nesciunt officiis corrupti quasi, repellat ab quae numquam cumque molestias officia, facilis molestiae iusto sed? Magnam, repellat eveniet.</p>
+
+    <script>
+        // USANDO O QUERYSELECTOR
+        /* querySelector() = getElementById() + getElementsByClassName() */
+
+        // Pegando pelo id
+        var primeiro = window.document.querySelector('h1#primeiro');
+        primeiro.style.color = "blue";
+
+        // Pegando pela classe
+        var pImportante = window.document.querySelector('p.importante'); // O comando 'querySelector' quando usado para pegar elementos pela classe apenas pega o primeiro deles
+        pImportante.style.color = "red";
+
+        // USANDO O QUERYSELECTORALL
+        var pImportanteAll = window.document.querySelectorAll("p.importante")[3]; /* O comando 'querySelectorAll()' aceita trabalhar com id, embora não seja uma boa pratica ter vários id com o mesmo nome no seu documento html */
+        pImportanteAll.style.color = 'pink'; // Muda a cor da fonte
+        pImportanteAll.style.background = 'black'; // Muda o background do elemento
+    </script>
+</body>
+</html>
