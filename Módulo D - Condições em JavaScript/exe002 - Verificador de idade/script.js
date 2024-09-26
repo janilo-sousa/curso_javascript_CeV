@@ -32,7 +32,7 @@ function verificar() {
 
             } else {
                 // idoso
-                img.setAttribute('src', 'images/homem-velho.png');
+                img.setAttribute('src', 'images/homem-idoso.png');
 
             }
 
